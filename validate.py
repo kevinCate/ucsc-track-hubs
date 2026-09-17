@@ -36,6 +36,13 @@ def require(path: pathlib.Path, keys: list[str], label: str) -> dict:
 hub = require(ROOT / 'hub.txt', ['hub', 'shortLabel', 'longLabel', 'genomesFile'], 'hub.txt')
 genomes = require(ROOT / 'genomes.txt', ['genome', 'trackDb'], 'genomes.txt')
 
+if hub.get('descriptionUrl'):
+  desc = ROOT / hub['descriptionUrl']
+  if not desc.exists():
+    errors.append(f'hub.txt: descriptionUrl target missing: {desc}')
+else:
+  warnings.append('hub.txt: no descriptionUrl set (UCSC warns on this)')
+
 if genomes.get('trackDb'):
   top_trackdb = ROOT / genomes['trackDb']
   if not top_trackdb.exists():
@@ -60,6 +67,10 @@ if genomes.get('trackDb'):
           errors.append(f'{frag}: bigDataUrl target is empty: {bw}')
         else:
           n_tracks += 1
+      for hm in re.finditer(r'^\s*html\s+(\S+)', text, re.M):
+        page = frag.parent / hm.group(1)
+        if not page.exists():
+          errors.append(f'{frag}: html description page missing: {page}')
     print(f'Checked {n_tracks} bigDataUrl track file(s) across '
           f'{len(list(re.finditer(r"^include", top_trackdb.read_text(), re.M)))} '
           f'included project(s).')

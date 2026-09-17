@@ -3,3 +3,4 @@ shortLabel UCSC track hubs
 longLabel Independent, reusable UCSC track hubs (one project per subfolder)
 genomesFile genomes.txt
 email example@example.com
+descriptionUrl hubDescription.html
