@@ -520,3 +520,21 @@ html lamp2-saturation-mutagenesis/LAMP2_CD34_CMP_density_smooth.html
     color 251,154,153
     html lamp2-saturation-mutagenesis/LAMP2_CD34_CMP_density_smooth_RNA_SEQ_common_myeloid_progenitor_CD34_positive.html
 
+track LAMP2_regions
+compositeTrack on
+shortLabel LAMP2 regions
+longLabel LAMP2 promoter / distal-element region annotations
+type bigBed 9
+itemRgb on
+visibility pack
+html lamp2-saturation-mutagenesis/LAMP2_regions.html
+
+    track LAMP2_regions_promoter
+    parent LAMP2_regions on
+    bigDataUrl lamp2-saturation-mutagenesis/LAMP2_promoter.bb
+    shortLabel promoter
+    longLabel LAMP2 promoter (chrX:120468295-120470295)
+    type bigBed 9
+    itemRgb on
+    html lamp2-saturation-mutagenesis/LAMP2_regions_promoter.html
+

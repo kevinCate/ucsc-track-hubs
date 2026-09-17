@@ -520,3 +520,30 @@ html spi1-saturation-mutagenesis/SPI1_CD34_CMP_density_smooth.html
     color 251,154,153
     html spi1-saturation-mutagenesis/SPI1_CD34_CMP_density_smooth_RNA_SEQ_common_myeloid_progenitor_CD34_positive.html
 
+track SPI1_regions
+compositeTrack on
+shortLabel SPI1 regions
+longLabel SPI1 promoter / distal-element region annotations
+type bigBed 9
+itemRgb on
+visibility pack
+html spi1-saturation-mutagenesis/SPI1_regions.html
+
+    track SPI1_regions_promoter
+    parent SPI1_regions on
+    bigDataUrl spi1-saturation-mutagenesis/SPI1_promoter.bb
+    shortLabel promoter
+    longLabel SPI1 promoter (chr11:47377546-47379546)
+    type bigBed 9
+    itemRgb on
+    html spi1-saturation-mutagenesis/SPI1_regions_promoter.html
+
+    track SPI1_regions_URE
+    parent SPI1_regions on
+    bigDataUrl spi1-saturation-mutagenesis/SPI1_URE.bb
+    shortLabel URE
+    longLabel SPI1 URE (chr11:47392546-47398546)
+    type bigBed 9
+    itemRgb on
+    html spi1-saturation-mutagenesis/SPI1_regions_URE.html
+
