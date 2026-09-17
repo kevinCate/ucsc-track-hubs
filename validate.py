@@ -5,6 +5,13 @@ Checks hub.txt/genomes.txt/trackDb.txt required keys, that every `include`
 resolves, and that every `bigDataUrl` points at a real, non-empty file
 (following symlinks) - the same class of error UCSC's own hub validator
 flags on "Add Hub", just catchable locally first.
+
+Important: UCSC resolves every relative `bigDataUrl`/`html` inside an
+`include`d trackDb.txt against the TOP-LEVEL trackDb.txt's directory, not
+against the included fragment's own directory - this validator resolves
+paths the same way (relative to top_trackdb.parent), matching real UCSC
+behavior (an earlier version of both this script and the generator got this
+wrong the same way, so it "validated" a hub that 404'd in the real browser).
 """
 import pathlib
 import re
@@ -60,7 +67,7 @@ if genomes.get('trackDb'):
         dupes = {t for t in track_names if track_names.count(t) > 1}
         errors.append(f'{frag}: duplicate track name(s): {sorted(dupes)}')
       for bd in re.finditer(r'^\s*bigDataUrl\s+(\S+)', text, re.M):
-        bw = frag.parent / bd.group(1)
+        bw = top_trackdb.parent / bd.group(1)
         if not bw.exists():
           errors.append(f'{frag}: bigDataUrl target missing: {bw}')
         elif bw.stat().st_size == 0:
@@ -68,7 +75,7 @@ if genomes.get('trackDb'):
         else:
           n_tracks += 1
       for hm in re.finditer(r'^\s*html\s+(\S+)', text, re.M):
-        page = frag.parent / hm.group(1)
+        page = top_trackdb.parent / hm.group(1)
         if not page.exists():
           errors.append(f'{frag}: html description page missing: {page}')
     print(f'Checked {n_tracks} bigDataUrl track file(s) across '
