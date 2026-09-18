@@ -1,523 +1,559 @@
 track SPI1_MPP_mean_effect
-container multiWig
+compositeTrack on
 shortLabel SPI1 MPP mean_effect
 longLabel SPI1 MPP mean SNV effect (signed)
 type bigWig
 visibility full
-aggregate transparentOverlay
-showSubtrackColorOnUi on
-autoScale on
-maxHeightPixels 128:40:11
 html spi1-saturation-mutagenesis/SPI1_MPP_mean_effect.html
 
     track SPI1_MPP_mean_effect_DNASE_hematopoietic_multipotent_progenitor_cell
-    parent SPI1_MPP_mean_effect
+    parent SPI1_MPP_mean_effect on
     bigDataUrl spi1-saturation-mutagenesis/SPI1_MPP_mean_effect_DNASE_hematopoietic_multipotent_progenitor_cell.bw
     shortLabel DNASE | hematopoietic multipotent progenitor cell
     longLabel DNASE | hematopoietic multipotent progenitor cell (CL:0000837 DNase-seq)
     type bigWig
     color 31,120,180
+    autoScale on
+    maxHeightPixels 60:40:11
     html spi1-saturation-mutagenesis/SPI1_MPP_mean_effect_DNASE_hematopoietic_multipotent_progenitor_cell.html
 
     track SPI1_MPP_mean_effect_RNA_SEQ_hematopoietic_multipotent_progenitor_cell
-    parent SPI1_MPP_mean_effect
+    parent SPI1_MPP_mean_effect on
     bigDataUrl spi1-saturation-mutagenesis/SPI1_MPP_mean_effect_RNA_SEQ_hematopoietic_multipotent_progenitor_cell.bw
     shortLabel RNA_SEQ | hematopoietic multipotent progenitor cel
     longLabel RNA_SEQ | hematopoietic multipotent progenitor cell (CL:0000837 total RNA-seq)
     type bigWig
     color 227,26,28
+    autoScale on
+    maxHeightPixels 60:40:11
     html spi1-saturation-mutagenesis/SPI1_MPP_mean_effect_RNA_SEQ_hematopoietic_multipotent_progenitor_cell.html
 
 track SPI1_MPP_density_raw
-container multiWig
+compositeTrack on
 shortLabel SPI1 MPP density_raw
 longLabel SPI1 MPP strong-variant density, raw
 type bigWig
 visibility full
-aggregate transparentOverlay
-showSubtrackColorOnUi on
-autoScale on
-maxHeightPixels 128:40:11
 html spi1-saturation-mutagenesis/SPI1_MPP_density_raw.html
 
     track SPI1_MPP_density_raw_DNASE_hematopoietic_multipotent_progenitor_cell
-    parent SPI1_MPP_density_raw
+    parent SPI1_MPP_density_raw on
     bigDataUrl spi1-saturation-mutagenesis/SPI1_MPP_density_raw_DNASE_hematopoietic_multipotent_progenitor_cell.bw
     shortLabel DNASE | hematopoietic multipotent progenitor cell
     longLabel DNASE | hematopoietic multipotent progenitor cell (CL:0000837 DNase-seq)
     type bigWig
     color 31,120,180
+    autoScale on
+    maxHeightPixels 60:40:11
     html spi1-saturation-mutagenesis/SPI1_MPP_density_raw_DNASE_hematopoietic_multipotent_progenitor_cell.html
 
     track SPI1_MPP_density_raw_RNA_SEQ_hematopoietic_multipotent_progenitor_cell
-    parent SPI1_MPP_density_raw
+    parent SPI1_MPP_density_raw on
     bigDataUrl spi1-saturation-mutagenesis/SPI1_MPP_density_raw_RNA_SEQ_hematopoietic_multipotent_progenitor_cell.bw
     shortLabel RNA_SEQ | hematopoietic multipotent progenitor cel
     longLabel RNA_SEQ | hematopoietic multipotent progenitor cell (CL:0000837 total RNA-seq)
     type bigWig
     color 227,26,28
+    autoScale on
+    maxHeightPixels 60:40:11
     html spi1-saturation-mutagenesis/SPI1_MPP_density_raw_RNA_SEQ_hematopoietic_multipotent_progenitor_cell.html
 
 track SPI1_MPP_density_smooth
-container multiWig
+compositeTrack on
 shortLabel SPI1 MPP density_smooth
 longLabel SPI1 MPP strong-variant density, 101bp smoothed
 type bigWig
 visibility full
-aggregate transparentOverlay
-showSubtrackColorOnUi on
-autoScale on
-maxHeightPixels 128:40:11
 html spi1-saturation-mutagenesis/SPI1_MPP_density_smooth.html
 
     track SPI1_MPP_density_smooth_DNASE_hematopoietic_multipotent_progenitor_cell
-    parent SPI1_MPP_density_smooth
+    parent SPI1_MPP_density_smooth on
     bigDataUrl spi1-saturation-mutagenesis/SPI1_MPP_density_smooth_DNASE_hematopoietic_multipotent_progenitor_cell.bw
     shortLabel DNASE | hematopoietic multipotent progenitor cell
     longLabel DNASE | hematopoietic multipotent progenitor cell (CL:0000837 DNase-seq)
     type bigWig
     color 31,120,180
+    autoScale on
+    maxHeightPixels 60:40:11
     html spi1-saturation-mutagenesis/SPI1_MPP_density_smooth_DNASE_hematopoietic_multipotent_progenitor_cell.html
 
     track SPI1_MPP_density_smooth_RNA_SEQ_hematopoietic_multipotent_progenitor_cell
-    parent SPI1_MPP_density_smooth
+    parent SPI1_MPP_density_smooth on
     bigDataUrl spi1-saturation-mutagenesis/SPI1_MPP_density_smooth_RNA_SEQ_hematopoietic_multipotent_progenitor_cell.bw
     shortLabel RNA_SEQ | hematopoietic multipotent progenitor cel
     longLabel RNA_SEQ | hematopoietic multipotent progenitor cell (CL:0000837 total RNA-seq)
     type bigWig
     color 227,26,28
+    autoScale on
+    maxHeightPixels 60:40:11
     html spi1-saturation-mutagenesis/SPI1_MPP_density_smooth_RNA_SEQ_hematopoietic_multipotent_progenitor_cell.html
 
 track SPI1_bone_marrow_tissue_mean_effect
-container multiWig
+compositeTrack on
 shortLabel SPI1 bone_marrow_tissue mean_effect
 longLabel SPI1 bone_marrow_tissue mean SNV effect (signed)
 type bigWig
 visibility full
-aggregate transparentOverlay
-showSubtrackColorOnUi on
-autoScale on
-maxHeightPixels 128:40:11
 html spi1-saturation-mutagenesis/SPI1_bone_marrow_tissue_mean_effect.html
 
     track SPI1_bone_marrow_tissue_mean_effect_CAGE_bone_marrow_plus
-    parent SPI1_bone_marrow_tissue_mean_effect
+    parent SPI1_bone_marrow_tissue_mean_effect on
     bigDataUrl spi1-saturation-mutagenesis/SPI1_bone_marrow_tissue_mean_effect_CAGE_bone_marrow_plus.bw
     shortLabel CAGE | bone marrow (+)
     longLabel CAGE | bone marrow (+) (hCAGE UBERON:0002371)
     type bigWig
     color 31,120,180
+    autoScale on
+    maxHeightPixels 60:40:11
     html spi1-saturation-mutagenesis/SPI1_bone_marrow_tissue_mean_effect_CAGE_bone_marrow_plus.html
 
     track SPI1_bone_marrow_tissue_mean_effect_CAGE_bone_marrow_minus
-    parent SPI1_bone_marrow_tissue_mean_effect
+    parent SPI1_bone_marrow_tissue_mean_effect on
     bigDataUrl spi1-saturation-mutagenesis/SPI1_bone_marrow_tissue_mean_effect_CAGE_bone_marrow_minus.bw
     shortLabel CAGE | bone marrow (-)
     longLabel CAGE | bone marrow (-) (hCAGE UBERON:0002371)
     type bigWig
     color 227,26,28
+    autoScale on
+    maxHeightPixels 60:40:11
     html spi1-saturation-mutagenesis/SPI1_bone_marrow_tissue_mean_effect_CAGE_bone_marrow_minus.html
 
 track SPI1_bone_marrow_tissue_density_raw
-container multiWig
+compositeTrack on
 shortLabel SPI1 bone_marrow_tissue density_raw
 longLabel SPI1 bone_marrow_tissue strong-variant density, raw
 type bigWig
 visibility full
-aggregate transparentOverlay
-showSubtrackColorOnUi on
-autoScale on
-maxHeightPixels 128:40:11
 html spi1-saturation-mutagenesis/SPI1_bone_marrow_tissue_density_raw.html
 
     track SPI1_bone_marrow_tissue_density_raw_CAGE_bone_marrow_plus
-    parent SPI1_bone_marrow_tissue_density_raw
+    parent SPI1_bone_marrow_tissue_density_raw on
     bigDataUrl spi1-saturation-mutagenesis/SPI1_bone_marrow_tissue_density_raw_CAGE_bone_marrow_plus.bw
     shortLabel CAGE | bone marrow (+)
     longLabel CAGE | bone marrow (+) (hCAGE UBERON:0002371)
     type bigWig
     color 31,120,180
+    autoScale on
+    maxHeightPixels 60:40:11
     html spi1-saturation-mutagenesis/SPI1_bone_marrow_tissue_density_raw_CAGE_bone_marrow_plus.html
 
     track SPI1_bone_marrow_tissue_density_raw_CAGE_bone_marrow_minus
-    parent SPI1_bone_marrow_tissue_density_raw
+    parent SPI1_bone_marrow_tissue_density_raw on
     bigDataUrl spi1-saturation-mutagenesis/SPI1_bone_marrow_tissue_density_raw_CAGE_bone_marrow_minus.bw
     shortLabel CAGE | bone marrow (-)
     longLabel CAGE | bone marrow (-) (hCAGE UBERON:0002371)
     type bigWig
     color 227,26,28
+    autoScale on
+    maxHeightPixels 60:40:11
     html spi1-saturation-mutagenesis/SPI1_bone_marrow_tissue_density_raw_CAGE_bone_marrow_minus.html
 
 track SPI1_bone_marrow_tissue_density_smooth
-container multiWig
+compositeTrack on
 shortLabel SPI1 bone_marrow_tissue density_smooth
 longLabel SPI1 bone_marrow_tissue strong-variant density, 101bp smoothed
 type bigWig
 visibility full
-aggregate transparentOverlay
-showSubtrackColorOnUi on
-autoScale on
-maxHeightPixels 128:40:11
 html spi1-saturation-mutagenesis/SPI1_bone_marrow_tissue_density_smooth.html
 
     track SPI1_bone_marrow_tissue_density_smooth_CAGE_bone_marrow_plus
-    parent SPI1_bone_marrow_tissue_density_smooth
+    parent SPI1_bone_marrow_tissue_density_smooth on
     bigDataUrl spi1-saturation-mutagenesis/SPI1_bone_marrow_tissue_density_smooth_CAGE_bone_marrow_plus.bw
     shortLabel CAGE | bone marrow (+)
     longLabel CAGE | bone marrow (+) (hCAGE UBERON:0002371)
     type bigWig
     color 31,120,180
+    autoScale on
+    maxHeightPixels 60:40:11
     html spi1-saturation-mutagenesis/SPI1_bone_marrow_tissue_density_smooth_CAGE_bone_marrow_plus.html
 
     track SPI1_bone_marrow_tissue_density_smooth_CAGE_bone_marrow_minus
-    parent SPI1_bone_marrow_tissue_density_smooth
+    parent SPI1_bone_marrow_tissue_density_smooth on
     bigDataUrl spi1-saturation-mutagenesis/SPI1_bone_marrow_tissue_density_smooth_CAGE_bone_marrow_minus.bw
     shortLabel CAGE | bone marrow (-)
     longLabel CAGE | bone marrow (-) (hCAGE UBERON:0002371)
     type bigWig
     color 227,26,28
+    autoScale on
+    maxHeightPixels 60:40:11
     html spi1-saturation-mutagenesis/SPI1_bone_marrow_tissue_density_smooth_CAGE_bone_marrow_minus.html
 
 track SPI1_bone_marrow_cell_mean_effect
-container multiWig
+compositeTrack on
 shortLabel SPI1 bone_marrow_cell mean_effect
 longLabel SPI1 bone_marrow_cell mean SNV effect (signed)
 type bigWig
 visibility full
-aggregate transparentOverlay
-showSubtrackColorOnUi on
-autoScale on
-maxHeightPixels 128:40:11
 html spi1-saturation-mutagenesis/SPI1_bone_marrow_cell_mean_effect.html
 
     track SPI1_bone_marrow_cell_mean_effect_CAGE_bone_marrow_cell_plus
-    parent SPI1_bone_marrow_cell_mean_effect
+    parent SPI1_bone_marrow_cell_mean_effect on
     bigDataUrl spi1-saturation-mutagenesis/SPI1_bone_marrow_cell_mean_effect_CAGE_bone_marrow_cell_plus.bw
     shortLabel CAGE | bone marrow cell (+)
     longLabel CAGE | bone marrow cell (+) (LQhCAGE CL:0002092)
     type bigWig
     color 31,120,180
+    autoScale on
+    maxHeightPixels 60:40:11
     html spi1-saturation-mutagenesis/SPI1_bone_marrow_cell_mean_effect_CAGE_bone_marrow_cell_plus.html
 
     track SPI1_bone_marrow_cell_mean_effect_CAGE_bone_marrow_cell_minus
-    parent SPI1_bone_marrow_cell_mean_effect
+    parent SPI1_bone_marrow_cell_mean_effect on
     bigDataUrl spi1-saturation-mutagenesis/SPI1_bone_marrow_cell_mean_effect_CAGE_bone_marrow_cell_minus.bw
     shortLabel CAGE | bone marrow cell (-)
     longLabel CAGE | bone marrow cell (-) (LQhCAGE CL:0002092)
     type bigWig
     color 227,26,28
+    autoScale on
+    maxHeightPixels 60:40:11
     html spi1-saturation-mutagenesis/SPI1_bone_marrow_cell_mean_effect_CAGE_bone_marrow_cell_minus.html
 
 track SPI1_bone_marrow_cell_density_raw
-container multiWig
+compositeTrack on
 shortLabel SPI1 bone_marrow_cell density_raw
 longLabel SPI1 bone_marrow_cell strong-variant density, raw
 type bigWig
 visibility full
-aggregate transparentOverlay
-showSubtrackColorOnUi on
-autoScale on
-maxHeightPixels 128:40:11
 html spi1-saturation-mutagenesis/SPI1_bone_marrow_cell_density_raw.html
 
     track SPI1_bone_marrow_cell_density_raw_CAGE_bone_marrow_cell_plus
-    parent SPI1_bone_marrow_cell_density_raw
+    parent SPI1_bone_marrow_cell_density_raw on
     bigDataUrl spi1-saturation-mutagenesis/SPI1_bone_marrow_cell_density_raw_CAGE_bone_marrow_cell_plus.bw
     shortLabel CAGE | bone marrow cell (+)
     longLabel CAGE | bone marrow cell (+) (LQhCAGE CL:0002092)
     type bigWig
     color 31,120,180
+    autoScale on
+    maxHeightPixels 60:40:11
     html spi1-saturation-mutagenesis/SPI1_bone_marrow_cell_density_raw_CAGE_bone_marrow_cell_plus.html
 
     track SPI1_bone_marrow_cell_density_raw_CAGE_bone_marrow_cell_minus
-    parent SPI1_bone_marrow_cell_density_raw
+    parent SPI1_bone_marrow_cell_density_raw on
     bigDataUrl spi1-saturation-mutagenesis/SPI1_bone_marrow_cell_density_raw_CAGE_bone_marrow_cell_minus.bw
     shortLabel CAGE | bone marrow cell (-)
     longLabel CAGE | bone marrow cell (-) (LQhCAGE CL:0002092)
     type bigWig
     color 227,26,28
+    autoScale on
+    maxHeightPixels 60:40:11
     html spi1-saturation-mutagenesis/SPI1_bone_marrow_cell_density_raw_CAGE_bone_marrow_cell_minus.html
 
 track SPI1_bone_marrow_cell_density_smooth
-container multiWig
+compositeTrack on
 shortLabel SPI1 bone_marrow_cell density_smooth
 longLabel SPI1 bone_marrow_cell strong-variant density, 101bp smoothed
 type bigWig
 visibility full
-aggregate transparentOverlay
-showSubtrackColorOnUi on
-autoScale on
-maxHeightPixels 128:40:11
 html spi1-saturation-mutagenesis/SPI1_bone_marrow_cell_density_smooth.html
 
     track SPI1_bone_marrow_cell_density_smooth_CAGE_bone_marrow_cell_plus
-    parent SPI1_bone_marrow_cell_density_smooth
+    parent SPI1_bone_marrow_cell_density_smooth on
     bigDataUrl spi1-saturation-mutagenesis/SPI1_bone_marrow_cell_density_smooth_CAGE_bone_marrow_cell_plus.bw
     shortLabel CAGE | bone marrow cell (+)
     longLabel CAGE | bone marrow cell (+) (LQhCAGE CL:0002092)
     type bigWig
     color 31,120,180
+    autoScale on
+    maxHeightPixels 60:40:11
     html spi1-saturation-mutagenesis/SPI1_bone_marrow_cell_density_smooth_CAGE_bone_marrow_cell_plus.html
 
     track SPI1_bone_marrow_cell_density_smooth_CAGE_bone_marrow_cell_minus
-    parent SPI1_bone_marrow_cell_density_smooth
+    parent SPI1_bone_marrow_cell_density_smooth on
     bigDataUrl spi1-saturation-mutagenesis/SPI1_bone_marrow_cell_density_smooth_CAGE_bone_marrow_cell_minus.bw
     shortLabel CAGE | bone marrow cell (-)
     longLabel CAGE | bone marrow cell (-) (LQhCAGE CL:0002092)
     type bigWig
     color 227,26,28
+    autoScale on
+    maxHeightPixels 60:40:11
     html spi1-saturation-mutagenesis/SPI1_bone_marrow_cell_density_smooth_CAGE_bone_marrow_cell_minus.html
 
 track SPI1_CD34_CMP_mean_effect
-container multiWig
+compositeTrack on
 shortLabel SPI1 CD34_CMP mean_effect
 longLabel SPI1 CD34_CMP mean SNV effect (signed)
 type bigWig
 visibility full
-aggregate transparentOverlay
-showSubtrackColorOnUi on
-autoScale on
-maxHeightPixels 128:40:11
 html spi1-saturation-mutagenesis/SPI1_CD34_CMP_mean_effect.html
 
     track SPI1_CD34_CMP_mean_effect_DNASE_common_myeloid_progenitor_CD34_positive
-    parent SPI1_CD34_CMP_mean_effect
+    parent SPI1_CD34_CMP_mean_effect on
     bigDataUrl spi1-saturation-mutagenesis/SPI1_CD34_CMP_mean_effect_DNASE_common_myeloid_progenitor_CD34_positive.bw
     shortLabel DNASE | common myeloid progenitor, CD34-positive
     longLabel DNASE | common myeloid progenitor, CD34-positive (CL:0001059 DNase-seq)
     type bigWig
     color 31,120,180
+    autoScale on
+    maxHeightPixels 60:40:11
     html spi1-saturation-mutagenesis/SPI1_CD34_CMP_mean_effect_DNASE_common_myeloid_progenitor_CD34_positive.html
 
     track SPI1_CD34_CMP_mean_effect_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K27ac
-    parent SPI1_CD34_CMP_mean_effect
+    parent SPI1_CD34_CMP_mean_effect on
     bigDataUrl spi1-saturation-mutagenesis/SPI1_CD34_CMP_mean_effect_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K27ac.bw
     shortLabel CHIP_HISTONE | common myeloid progenitor, CD34-pos
     longLabel CHIP_HISTONE | common myeloid progenitor, CD34-positive | H3K27ac (CL:0001059 Histone ChIP-seq H3K27ac)
     type bigWig
     color 227,26,28
+    autoScale on
+    maxHeightPixels 60:40:11
     html spi1-saturation-mutagenesis/SPI1_CD34_CMP_mean_effect_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K27ac.html
 
     track SPI1_CD34_CMP_mean_effect_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K27me3
-    parent SPI1_CD34_CMP_mean_effect
+    parent SPI1_CD34_CMP_mean_effect on
     bigDataUrl spi1-saturation-mutagenesis/SPI1_CD34_CMP_mean_effect_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K27me3.bw
     shortLabel CHIP_HISTONE | common myeloid progenitor, CD34-pos
     longLabel CHIP_HISTONE | common myeloid progenitor, CD34-positive | H3K27me3 (CL:0001059 Histone ChIP-seq H3K27me3)
     type bigWig
     color 51,160,44
+    autoScale on
+    maxHeightPixels 60:40:11
     html spi1-saturation-mutagenesis/SPI1_CD34_CMP_mean_effect_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K27me3.html
 
     track SPI1_CD34_CMP_mean_effect_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K36me3
-    parent SPI1_CD34_CMP_mean_effect
+    parent SPI1_CD34_CMP_mean_effect on
     bigDataUrl spi1-saturation-mutagenesis/SPI1_CD34_CMP_mean_effect_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K36me3.bw
     shortLabel CHIP_HISTONE | common myeloid progenitor, CD34-pos
     longLabel CHIP_HISTONE | common myeloid progenitor, CD34-positive | H3K36me3 (CL:0001059 Histone ChIP-seq H3K36me3)
     type bigWig
     color 255,127,0
+    autoScale on
+    maxHeightPixels 60:40:11
     html spi1-saturation-mutagenesis/SPI1_CD34_CMP_mean_effect_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K36me3.html
 
     track SPI1_CD34_CMP_mean_effect_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K4me1
-    parent SPI1_CD34_CMP_mean_effect
+    parent SPI1_CD34_CMP_mean_effect on
     bigDataUrl spi1-saturation-mutagenesis/SPI1_CD34_CMP_mean_effect_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K4me1.bw
     shortLabel CHIP_HISTONE | common myeloid progenitor, CD34-pos
     longLabel CHIP_HISTONE | common myeloid progenitor, CD34-positive | H3K4me1 (CL:0001059 Histone ChIP-seq H3K4me1)
     type bigWig
     color 106,61,154
+    autoScale on
+    maxHeightPixels 60:40:11
     html spi1-saturation-mutagenesis/SPI1_CD34_CMP_mean_effect_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K4me1.html
 
     track SPI1_CD34_CMP_mean_effect_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K4me3
-    parent SPI1_CD34_CMP_mean_effect
+    parent SPI1_CD34_CMP_mean_effect on
     bigDataUrl spi1-saturation-mutagenesis/SPI1_CD34_CMP_mean_effect_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K4me3.bw
     shortLabel CHIP_HISTONE | common myeloid progenitor, CD34-pos
     longLabel CHIP_HISTONE | common myeloid progenitor, CD34-positive | H3K4me3 (CL:0001059 Histone ChIP-seq H3K4me3)
     type bigWig
     color 177,89,40
+    autoScale on
+    maxHeightPixels 60:40:11
     html spi1-saturation-mutagenesis/SPI1_CD34_CMP_mean_effect_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K4me3.html
 
     track SPI1_CD34_CMP_mean_effect_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K9me3
-    parent SPI1_CD34_CMP_mean_effect
+    parent SPI1_CD34_CMP_mean_effect on
     bigDataUrl spi1-saturation-mutagenesis/SPI1_CD34_CMP_mean_effect_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K9me3.bw
     shortLabel CHIP_HISTONE | common myeloid progenitor, CD34-pos
     longLabel CHIP_HISTONE | common myeloid progenitor, CD34-positive | H3K9me3 (CL:0001059 Histone ChIP-seq H3K9me3)
     type bigWig
     color 166,206,227
+    autoScale on
+    maxHeightPixels 60:40:11
     html spi1-saturation-mutagenesis/SPI1_CD34_CMP_mean_effect_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K9me3.html
 
     track SPI1_CD34_CMP_mean_effect_RNA_SEQ_common_myeloid_progenitor_CD34_positive
-    parent SPI1_CD34_CMP_mean_effect
+    parent SPI1_CD34_CMP_mean_effect on
     bigDataUrl spi1-saturation-mutagenesis/SPI1_CD34_CMP_mean_effect_RNA_SEQ_common_myeloid_progenitor_CD34_positive.bw
     shortLabel RNA_SEQ | common myeloid progenitor, CD34-positive
     longLabel RNA_SEQ | common myeloid progenitor, CD34-positive (CL:0001059 polyA plus RNA-seq)
     type bigWig
     color 251,154,153
+    autoScale on
+    maxHeightPixels 60:40:11
     html spi1-saturation-mutagenesis/SPI1_CD34_CMP_mean_effect_RNA_SEQ_common_myeloid_progenitor_CD34_positive.html
 
 track SPI1_CD34_CMP_density_raw
-container multiWig
+compositeTrack on
 shortLabel SPI1 CD34_CMP density_raw
 longLabel SPI1 CD34_CMP strong-variant density, raw
 type bigWig
 visibility full
-aggregate transparentOverlay
-showSubtrackColorOnUi on
-autoScale on
-maxHeightPixels 128:40:11
 html spi1-saturation-mutagenesis/SPI1_CD34_CMP_density_raw.html
 
     track SPI1_CD34_CMP_density_raw_DNASE_common_myeloid_progenitor_CD34_positive
-    parent SPI1_CD34_CMP_density_raw
+    parent SPI1_CD34_CMP_density_raw on
     bigDataUrl spi1-saturation-mutagenesis/SPI1_CD34_CMP_density_raw_DNASE_common_myeloid_progenitor_CD34_positive.bw
     shortLabel DNASE | common myeloid progenitor, CD34-positive
     longLabel DNASE | common myeloid progenitor, CD34-positive (CL:0001059 DNase-seq)
     type bigWig
     color 31,120,180
+    autoScale on
+    maxHeightPixels 60:40:11
     html spi1-saturation-mutagenesis/SPI1_CD34_CMP_density_raw_DNASE_common_myeloid_progenitor_CD34_positive.html
 
     track SPI1_CD34_CMP_density_raw_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K27ac
-    parent SPI1_CD34_CMP_density_raw
+    parent SPI1_CD34_CMP_density_raw on
     bigDataUrl spi1-saturation-mutagenesis/SPI1_CD34_CMP_density_raw_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K27ac.bw
     shortLabel CHIP_HISTONE | common myeloid progenitor, CD34-pos
     longLabel CHIP_HISTONE | common myeloid progenitor, CD34-positive | H3K27ac (CL:0001059 Histone ChIP-seq H3K27ac)
     type bigWig
     color 227,26,28
+    autoScale on
+    maxHeightPixels 60:40:11
     html spi1-saturation-mutagenesis/SPI1_CD34_CMP_density_raw_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K27ac.html
 
     track SPI1_CD34_CMP_density_raw_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K27me3
-    parent SPI1_CD34_CMP_density_raw
+    parent SPI1_CD34_CMP_density_raw on
     bigDataUrl spi1-saturation-mutagenesis/SPI1_CD34_CMP_density_raw_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K27me3.bw
     shortLabel CHIP_HISTONE | common myeloid progenitor, CD34-pos
     longLabel CHIP_HISTONE | common myeloid progenitor, CD34-positive | H3K27me3 (CL:0001059 Histone ChIP-seq H3K27me3)
     type bigWig
     color 51,160,44
+    autoScale on
+    maxHeightPixels 60:40:11
     html spi1-saturation-mutagenesis/SPI1_CD34_CMP_density_raw_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K27me3.html
 
     track SPI1_CD34_CMP_density_raw_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K36me3
-    parent SPI1_CD34_CMP_density_raw
+    parent SPI1_CD34_CMP_density_raw on
     bigDataUrl spi1-saturation-mutagenesis/SPI1_CD34_CMP_density_raw_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K36me3.bw
     shortLabel CHIP_HISTONE | common myeloid progenitor, CD34-pos
     longLabel CHIP_HISTONE | common myeloid progenitor, CD34-positive | H3K36me3 (CL:0001059 Histone ChIP-seq H3K36me3)
     type bigWig
     color 255,127,0
+    autoScale on
+    maxHeightPixels 60:40:11
     html spi1-saturation-mutagenesis/SPI1_CD34_CMP_density_raw_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K36me3.html
 
     track SPI1_CD34_CMP_density_raw_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K4me1
-    parent SPI1_CD34_CMP_density_raw
+    parent SPI1_CD34_CMP_density_raw on
     bigDataUrl spi1-saturation-mutagenesis/SPI1_CD34_CMP_density_raw_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K4me1.bw
     shortLabel CHIP_HISTONE | common myeloid progenitor, CD34-pos
     longLabel CHIP_HISTONE | common myeloid progenitor, CD34-positive | H3K4me1 (CL:0001059 Histone ChIP-seq H3K4me1)
     type bigWig
     color 106,61,154
+    autoScale on
+    maxHeightPixels 60:40:11
     html spi1-saturation-mutagenesis/SPI1_CD34_CMP_density_raw_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K4me1.html
 
     track SPI1_CD34_CMP_density_raw_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K4me3
-    parent SPI1_CD34_CMP_density_raw
+    parent SPI1_CD34_CMP_density_raw on
     bigDataUrl spi1-saturation-mutagenesis/SPI1_CD34_CMP_density_raw_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K4me3.bw
     shortLabel CHIP_HISTONE | common myeloid progenitor, CD34-pos
     longLabel CHIP_HISTONE | common myeloid progenitor, CD34-positive | H3K4me3 (CL:0001059 Histone ChIP-seq H3K4me3)
     type bigWig
     color 177,89,40
+    autoScale on
+    maxHeightPixels 60:40:11
     html spi1-saturation-mutagenesis/SPI1_CD34_CMP_density_raw_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K4me3.html
 
     track SPI1_CD34_CMP_density_raw_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K9me3
-    parent SPI1_CD34_CMP_density_raw
+    parent SPI1_CD34_CMP_density_raw on
     bigDataUrl spi1-saturation-mutagenesis/SPI1_CD34_CMP_density_raw_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K9me3.bw
     shortLabel CHIP_HISTONE | common myeloid progenitor, CD34-pos
     longLabel CHIP_HISTONE | common myeloid progenitor, CD34-positive | H3K9me3 (CL:0001059 Histone ChIP-seq H3K9me3)
     type bigWig
     color 166,206,227
+    autoScale on
+    maxHeightPixels 60:40:11
     html spi1-saturation-mutagenesis/SPI1_CD34_CMP_density_raw_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K9me3.html
 
     track SPI1_CD34_CMP_density_raw_RNA_SEQ_common_myeloid_progenitor_CD34_positive
-    parent SPI1_CD34_CMP_density_raw
+    parent SPI1_CD34_CMP_density_raw on
     bigDataUrl spi1-saturation-mutagenesis/SPI1_CD34_CMP_density_raw_RNA_SEQ_common_myeloid_progenitor_CD34_positive.bw
     shortLabel RNA_SEQ | common myeloid progenitor, CD34-positive
     longLabel RNA_SEQ | common myeloid progenitor, CD34-positive (CL:0001059 polyA plus RNA-seq)
     type bigWig
     color 251,154,153
+    autoScale on
+    maxHeightPixels 60:40:11
     html spi1-saturation-mutagenesis/SPI1_CD34_CMP_density_raw_RNA_SEQ_common_myeloid_progenitor_CD34_positive.html
 
 track SPI1_CD34_CMP_density_smooth
-container multiWig
+compositeTrack on
 shortLabel SPI1 CD34_CMP density_smooth
 longLabel SPI1 CD34_CMP strong-variant density, 101bp smoothed
 type bigWig
 visibility full
-aggregate transparentOverlay
-showSubtrackColorOnUi on
-autoScale on
-maxHeightPixels 128:40:11
 html spi1-saturation-mutagenesis/SPI1_CD34_CMP_density_smooth.html
 
     track SPI1_CD34_CMP_density_smooth_DNASE_common_myeloid_progenitor_CD34_positive
-    parent SPI1_CD34_CMP_density_smooth
+    parent SPI1_CD34_CMP_density_smooth on
     bigDataUrl spi1-saturation-mutagenesis/SPI1_CD34_CMP_density_smooth_DNASE_common_myeloid_progenitor_CD34_positive.bw
     shortLabel DNASE | common myeloid progenitor, CD34-positive
     longLabel DNASE | common myeloid progenitor, CD34-positive (CL:0001059 DNase-seq)
     type bigWig
     color 31,120,180
+    autoScale on
+    maxHeightPixels 60:40:11
     html spi1-saturation-mutagenesis/SPI1_CD34_CMP_density_smooth_DNASE_common_myeloid_progenitor_CD34_positive.html
 
     track SPI1_CD34_CMP_density_smooth_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K27ac
-    parent SPI1_CD34_CMP_density_smooth
+    parent SPI1_CD34_CMP_density_smooth on
     bigDataUrl spi1-saturation-mutagenesis/SPI1_CD34_CMP_density_smooth_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K27ac.bw
     shortLabel CHIP_HISTONE | common myeloid progenitor, CD34-pos
     longLabel CHIP_HISTONE | common myeloid progenitor, CD34-positive | H3K27ac (CL:0001059 Histone ChIP-seq H3K27ac)
     type bigWig
     color 227,26,28
+    autoScale on
+    maxHeightPixels 60:40:11
     html spi1-saturation-mutagenesis/SPI1_CD34_CMP_density_smooth_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K27ac.html
 
     track SPI1_CD34_CMP_density_smooth_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K27me3
-    parent SPI1_CD34_CMP_density_smooth
+    parent SPI1_CD34_CMP_density_smooth on
     bigDataUrl spi1-saturation-mutagenesis/SPI1_CD34_CMP_density_smooth_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K27me3.bw
     shortLabel CHIP_HISTONE | common myeloid progenitor, CD34-pos
     longLabel CHIP_HISTONE | common myeloid progenitor, CD34-positive | H3K27me3 (CL:0001059 Histone ChIP-seq H3K27me3)
     type bigWig
     color 51,160,44
+    autoScale on
+    maxHeightPixels 60:40:11
     html spi1-saturation-mutagenesis/SPI1_CD34_CMP_density_smooth_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K27me3.html
 
     track SPI1_CD34_CMP_density_smooth_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K36me3
-    parent SPI1_CD34_CMP_density_smooth
+    parent SPI1_CD34_CMP_density_smooth on
     bigDataUrl spi1-saturation-mutagenesis/SPI1_CD34_CMP_density_smooth_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K36me3.bw
     shortLabel CHIP_HISTONE | common myeloid progenitor, CD34-pos
     longLabel CHIP_HISTONE | common myeloid progenitor, CD34-positive | H3K36me3 (CL:0001059 Histone ChIP-seq H3K36me3)
     type bigWig
     color 255,127,0
+    autoScale on
+    maxHeightPixels 60:40:11
     html spi1-saturation-mutagenesis/SPI1_CD34_CMP_density_smooth_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K36me3.html
 
     track SPI1_CD34_CMP_density_smooth_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K4me1
-    parent SPI1_CD34_CMP_density_smooth
+    parent SPI1_CD34_CMP_density_smooth on
     bigDataUrl spi1-saturation-mutagenesis/SPI1_CD34_CMP_density_smooth_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K4me1.bw
     shortLabel CHIP_HISTONE | common myeloid progenitor, CD34-pos
     longLabel CHIP_HISTONE | common myeloid progenitor, CD34-positive | H3K4me1 (CL:0001059 Histone ChIP-seq H3K4me1)
     type bigWig
     color 106,61,154
+    autoScale on
+    maxHeightPixels 60:40:11
     html spi1-saturation-mutagenesis/SPI1_CD34_CMP_density_smooth_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K4me1.html
 
     track SPI1_CD34_CMP_density_smooth_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K4me3
-    parent SPI1_CD34_CMP_density_smooth
+    parent SPI1_CD34_CMP_density_smooth on
     bigDataUrl spi1-saturation-mutagenesis/SPI1_CD34_CMP_density_smooth_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K4me3.bw
     shortLabel CHIP_HISTONE | common myeloid progenitor, CD34-pos
     longLabel CHIP_HISTONE | common myeloid progenitor, CD34-positive | H3K4me3 (CL:0001059 Histone ChIP-seq H3K4me3)
     type bigWig
     color 177,89,40
+    autoScale on
+    maxHeightPixels 60:40:11
     html spi1-saturation-mutagenesis/SPI1_CD34_CMP_density_smooth_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K4me3.html
 
     track SPI1_CD34_CMP_density_smooth_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K9me3
-    parent SPI1_CD34_CMP_density_smooth
+    parent SPI1_CD34_CMP_density_smooth on
     bigDataUrl spi1-saturation-mutagenesis/SPI1_CD34_CMP_density_smooth_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K9me3.bw
     shortLabel CHIP_HISTONE | common myeloid progenitor, CD34-pos
     longLabel CHIP_HISTONE | common myeloid progenitor, CD34-positive | H3K9me3 (CL:0001059 Histone ChIP-seq H3K9me3)
     type bigWig
     color 166,206,227
+    autoScale on
+    maxHeightPixels 60:40:11
     html spi1-saturation-mutagenesis/SPI1_CD34_CMP_density_smooth_CHIP_HISTONE_common_myeloid_progenitor_CD34_positive_H3K9me3.html
 
     track SPI1_CD34_CMP_density_smooth_RNA_SEQ_common_myeloid_progenitor_CD34_positive
-    parent SPI1_CD34_CMP_density_smooth
+    parent SPI1_CD34_CMP_density_smooth on
     bigDataUrl spi1-saturation-mutagenesis/SPI1_CD34_CMP_density_smooth_RNA_SEQ_common_myeloid_progenitor_CD34_positive.bw
     shortLabel RNA_SEQ | common myeloid progenitor, CD34-positive
     longLabel RNA_SEQ | common myeloid progenitor, CD34-positive (CL:0001059 polyA plus RNA-seq)
     type bigWig
     color 251,154,153
+    autoScale on
+    maxHeightPixels 60:40:11
     html spi1-saturation-mutagenesis/SPI1_CD34_CMP_density_smooth_RNA_SEQ_common_myeloid_progenitor_CD34_positive.html
 
 track SPI1_regions
